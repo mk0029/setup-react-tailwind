@@ -39,9 +39,9 @@ const Dummy = () => {
         </Cta>
       </div>
       <div className="container flex h-screen flex-col items-center justify-center gap-6">
-        <Paragraph center className="max-w-[750px]">
+        <Paragraph center className="max-w-[850px]">
           To use this setup, you just need to remove the existing git repo by
-          using this command.
+          using this command in <b>Bash</b>.
           <br />
           <span className="text inline-block bg-black/80 p-1 text-white">
             rm -rf .git
@@ -49,7 +49,12 @@ const Dummy = () => {
           <br />
           And after that, you can add a new repo to this project.
         </Paragraph>
-        <Cta url="">Clone Repo</Cta>
+        <Cta
+          target="_blank"
+          url="https://github.com/mk0029/setup-react-tailwind"
+        >
+          Clone Repo
+        </Cta>
       </div>
       <BackToTop />
     </div>
